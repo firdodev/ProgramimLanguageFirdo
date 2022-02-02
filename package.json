@@ -1,0 +1,24 @@
+{
+  "name": "firdo",
+  "version": "1.0.0",
+  "description": "Firdeus Programming Language",
+  "main": "index.js",
+  "scripts": {
+    "gen-parser": "nearley mypl.grammar -o mypl.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/firdodev/ProgramimLanguageFirdo.git"
+  },
+  "keywords": [],
+  "author": "Firdeus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/firdodev/ProgramimLanguageFirdo/issues"
+  },
+  "homepage": "https://github.com/firdodev/ProgramimLanguageFirdo#readme",
+  "dependencies": {
+    "nearley": "^2.20.1",
+    "nearly": "^1.8.1"
+  }
+}
